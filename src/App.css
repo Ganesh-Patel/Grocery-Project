@@ -103,3 +103,17 @@ h4 {
 .item input[type="checkbox"] {
     cursor: pointer;
 }
+
+@media (max-width:700px ){
+    .input-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
